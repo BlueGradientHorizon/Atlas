@@ -3,9 +3,7 @@ name: Create and Validate Atlas Playbook
 on:
   push:
     paths:
-      - "src/**"
-      - "**/*.yaml"
-      - "**/*.yml"
+      - "**"
 
 env:
   SXSC_REPO: "https://github.com/Atlas-OS/sxsc"
